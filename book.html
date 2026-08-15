@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The Book — Au Camélia</title>
+<meta name="description" content="A working test bench applying the M4DM method: ROS 2, PDDL task planning, machine vision, and natural-language interfaces.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;700;800&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+
+<nav class="site-nav">
+  <div class="wrap">
+    <a href="index.html" class="brand"><img src="assets/logo-mark.png" alt="Au Camélia" class="logo-mark"><span>Au Camélia</span></a>
+    <div class="nav-cta">
+      <a href="services.html" class="btn">Services</a>
+      <a href="book.html" class="btn current">The book</a>
+      <a href="contact.html" class="btn primary">Get in touch</a>
+    </div>
+  </div>
+</nav>
+
+<header class="hero">
+  <div class="wrap">
+    <span class="eyebrow">The Book</span>
+    <h1>The method, applied.</h1>
+    <p class="lede">A working test bench, built to prove the approach on real hardware and a real trade-off — not slideware. Growing over time as new cases are added.</p>
+  </div>
+</header>
+
+<section class="block">
+  <div class="wrap grid-label">
+    <span class="eyebrow">01 — Test bench</span>
+    <div>
+      <h2>Natural-language robot control, ROS 2 &amp; PDDL task planning.</h2>
+      <p class="kicker-text">A simulation of a test bench built on the ROS 2 framework, using a PDDL solver for task planning. A user states a goal in plain language — "measure diameter hole H013" — and the system plans and executes the sequence itself, instead of a hand-written program.</p>
+      <p class="kicker-text">The test bench is built around a Fanuc CRX-20 cobot fitted with a Stäubli quick-change interface, letting the robot swap its own end-effectors depending on the task.</p>
+      <p class="kicker-text">It's also the proof point for a broader capability: complex machines — measurement systems, robotic cells — are often only operable by a small group of specialists, a bottleneck of dependency, long training, and equipment left under-used outside the hours those specialists are available. The test bench's natural-language layer shows that a plain instruction can be translated into an executable plan without sacrificing the rigour of the underlying control — a capability that extends wherever a complex machine could be opened up to more of the team.</p>
+      <div class="media-placeholder">Demo video — coming soon</div>
+    </div>
+  </div>
+</section>
+
+<section class="block">
+  <div class="wrap grid-label">
+    <span class="eyebrow">02 — Trade-off engine</span>
+    <div>
+      <h2>Comparing manual, hybrid, and automated — on more than one criterion at once.</h2>
+      <p class="kicker-text">The same planning core also drives M4DM's decision-comparison work: modelling different task allocations between operator and machine, and comparing the resulting plans on cycle time, cost, ergonomics, and flexibility — side by side, not one estimate at a time.</p>
+      <p class="kicker-text">Applied to an aircraft fuselage assembly case: comparing a manual process against a semi-automated one for splice fastening on a structural frame, with a Gantt-based comparison of makespan and per-resource occupancy.</p>
+      <div class="media-placeholder">Gantt comparator — animated demo coming soon</div>
+    </div>
+  </div>
+</section>
+
+<section class="block">
+  <div class="wrap grid-label">
+    <span class="eyebrow">03 — Machine vision</span>
+    <div>
+      <h2>Sub-millimetre relocation, validated in simulation before hardware.</h2>
+      <p class="kicker-text">A splice-relocation concept based on a Zivid 2 camera, validated using Gazebo simulation before committing to physical testing. Targets: lateral position &lt; 0.5&nbsp;mm, tilt &lt; 1°, distance to surface &lt; 0.1&nbsp;mm, with Cp &gt; 1.66 and Cpk &gt; 1.33.</p>
+      <p class="kicker-text">The modelling validates the concept before investing in a representative proof of concept for qualification — the same discipline the method applies everywhere else.</p>
+      <div class="media-placeholder">Relocation demo — GIF coming soon</div>
+    </div>
+  </div>
+</section>
+
+<section class="block">
+  <div class="wrap">
+    <span class="eyebrow">Get in touch</span>
+    <h2 style="max-width: 22ch;">See how this applies to your process.</h2>
+    <div class="cta-row" style="margin-top: 20px;">
+      <a href="contact.html" class="btn primary">Get in touch</a>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <div class="fine">© Au Camélia</div>
+    <div class="links">
+      <a href="services.html">Services</a>
+      <a href="book.html">Book</a>
+      <a href="https://www.linkedin.com/in/christophe-poulain-34b952157/">LinkedIn</a>
+    </div>
+  </div>
+</footer>
+
+<script src="assets/main.js"></script>
+</body>
+</html>
