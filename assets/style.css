@@ -97,8 +97,8 @@ h1, h2, h3 {
   .site-nav .wrap { gap: 10px; }
   .brand .logo-mark { height: 40px; }
   .brand span { font-size: 16px; }
-  .nav-cta { gap: 8px; width: 100%; }
-  .nav-cta .btn { padding: 9px 12px; font-size: 11px; flex: 1; text-align: center; }
+  .nav-cta { gap: 6px; width: 100%; justify-content: space-between; }
+  .nav-cta .btn { padding: 8px 10px; font-size: 10px; letter-spacing: 0.02em; white-space: nowrap; }
 }
 
 /* ---------- hero ---------- */
