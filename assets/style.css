@@ -94,11 +94,11 @@ h1, h2, h3 {
 .brand .logo-mark { height: 56px; width: auto; display: block; }
 .brand span { font-family: var(--display); font-weight: 700; font-size: 19px; letter-spacing: 0.01em; }
 @media (max-width: 480px) {
-  .site-nav .wrap { gap: 10px; }
-  .brand .logo-mark { height: 40px; }
-  .brand span { font-size: 16px; }
-  .nav-cta { gap: 6px; width: 100%; justify-content: space-between; }
-  .nav-cta .btn { padding: 8px 10px; font-size: 10px; letter-spacing: 0.02em; white-space: nowrap; }
+  .site-nav .wrap { flex-wrap: nowrap; gap: 10px; }
+  .brand .logo-mark { height: 36px; }
+  .brand span { display: none; }
+  .nav-cta { flex-wrap: nowrap; gap: 6px; }
+  .nav-cta .btn { padding: 7px 9px; font-size: 10px; letter-spacing: 0.02em; white-space: nowrap; }
 }
 
 /* ---------- hero ---------- */
