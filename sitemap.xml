@@ -1,15 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://clgp44.github.io/auCamelia/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://clgp44.github.io/auCamelia/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://clgp44.github.io/auCamelia/fr/" />
   </url>
   <url>
     <loc>https://clgp44.github.io/auCamelia/services.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://clgp44.github.io/auCamelia/services.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://clgp44.github.io/auCamelia/fr/services.html" />
   </url>
   <url>
     <loc>https://clgp44.github.io/auCamelia/book.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://clgp44.github.io/auCamelia/book.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://clgp44.github.io/auCamelia/fr/book.html" />
   </url>
   <url>
     <loc>https://clgp44.github.io/auCamelia/contact.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://clgp44.github.io/auCamelia/contact.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://clgp44.github.io/auCamelia/fr/contact.html" />
+  </url>
+  <url>
+    <loc>https://clgp44.github.io/auCamelia/fr/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://clgp44.github.io/auCamelia/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://clgp44.github.io/auCamelia/fr/" />
+  </url>
+  <url>
+    <loc>https://clgp44.github.io/auCamelia/fr/services.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://clgp44.github.io/auCamelia/services.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://clgp44.github.io/auCamelia/fr/services.html" />
+  </url>
+  <url>
+    <loc>https://clgp44.github.io/auCamelia/fr/book.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://clgp44.github.io/auCamelia/book.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://clgp44.github.io/auCamelia/fr/book.html" />
+  </url>
+  <url>
+    <loc>https://clgp44.github.io/auCamelia/fr/contact.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://clgp44.github.io/auCamelia/contact.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://clgp44.github.io/auCamelia/fr/contact.html" />
   </url>
 </urlset>

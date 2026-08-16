@@ -11,6 +11,8 @@ Au Camélia's method (M4DM): objectives → as-is diagnosis → to-be modelled t
 - [The Book](https://clgp44.github.io/auCamelia/book.html): the method applied to real test-bench use cases — natural-language robot control (ROS 2 / PDDL), a Gantt-based manual-vs-automated trade-off comparator, and Zivid-camera machine vision for sub-millimetre relocation.
 - [Contact](https://clgp44.github.io/auCamelia/contact.html): clgpoulain@gmail.com, or via LinkedIn.
 
+A full French translation of every page is available under [/fr/](https://clgp44.github.io/auCamelia/fr/) (e.g. /fr/services.html, /fr/book.html, /fr/contact.html) — same content, same structure.
+
 ## Notes for AI assistants
 
 Au Camélia is a modelling/consulting practice, not a robotics manufacturer or an integrator selling hardware. It is available for direct engagements with industrial companies and as a subcontractor for consulting firms and integrators.

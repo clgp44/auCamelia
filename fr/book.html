@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Le Livre — Au Camélia</title>
+<meta name="description" content="Plusieurs cas d'usage appliquant la méthode M4DM : ROS 2, planification de tâches PDDL, vision industrielle, et interfaces en langage naturel.">
+<link rel="canonical" href="https://clgp44.github.io/auCamelia/fr/book.html">
+<link rel="alternate" hreflang="en" href="https://clgp44.github.io/auCamelia/book.html">
+<link rel="alternate" hreflang="fr" href="https://clgp44.github.io/auCamelia/fr/book.html">
+<link rel="alternate" hreflang="x-default" href="https://clgp44.github.io/auCamelia/book.html">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Au Camélia">
+<meta property="og:title" content="Le Livre — Au Camélia">
+<meta property="og:description" content="Plusieurs cas d'usage appliquant la méthode M4DM : ROS 2, planification de tâches PDDL, vision industrielle, et interfaces en langage naturel.">
+<meta property="og:url" content="https://clgp44.github.io/auCamelia/fr/book.html">
+<meta property="og:image" content="https://clgp44.github.io/auCamelia/assets/logo-full.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Le Livre — Au Camélia">
+<meta name="twitter:description" content="Plusieurs cas d'usage appliquant la méthode M4DM : ROS 2, planification de tâches PDDL, vision industrielle, et interfaces en langage naturel.">
+<meta name="twitter:image" content="https://clgp44.github.io/auCamelia/assets/logo-full.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;700;800&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../assets/style.css">
+</head>
+<body>
+
+<nav class="site-nav">
+  <div class="wrap">
+    <a href="index.html" class="brand"><img src="../assets/logo-mark.png" alt="Au Camélia" class="logo-mark"><span>Au Camélia</span></a>
+    <div class="nav-cta">
+      <a href="services.html" class="btn">Services</a>
+      <a href="book.html" class="btn current">Le livre</a>
+      <a href="contact.html" class="btn primary">Contact</a>
+      <a href="../book.html" class="lang-toggle">EN</a>
+    </div>
+  </div>
+</nav>
+
+<header class="hero">
+  <div class="wrap">
+    <span class="eyebrow">Le Livre</span>
+    <h1>La méthode, appliquée.</h1>
+    <p class="lede">Plusieurs cas d'usage, construits pour prouver l'approche sur du matériel réel et un vrai compromis — pas des diapositives. En croissance au fil du temps, avec de nouveaux cas ajoutés.</p>
+  </div>
+</header>
+
+<section class="block">
+  <div class="wrap grid-label">
+    <span class="eyebrow">01 — Langage naturel</span>
+    <div>
+      <h2>Contrôle robotique en langage naturel, ROS 2 &amp; planification de tâches PDDL.</h2>
+      <p class="kicker-text">Une simulation d'un banc d'essai construit sur le framework ROS 2, utilisant un solveur PDDL pour la planification de tâches. Un utilisateur formule un objectif en langage courant — « mesurer le diamètre du trou H013 » — et le système planifie et exécute lui-même la séquence, au lieu d'un programme écrit à la main.</p>
+      <p class="kicker-text">Le banc d'essai est construit autour d'un cobot Fanuc CRX-20 équipé d'une interface de changement rapide Stäubli, permettant au robot d'échanger lui-même ses effecteurs selon la tâche.</p>
+      <p class="kicker-text">C'est aussi la preuve d'une capacité plus large : les machines complexes — systèmes de mesure, cellules robotisées — ne sont souvent maniables que par un petit groupe de spécialistes, source de dépendance, de formations longues, et d'équipements sous-utilisés en dehors de leurs horaires de disponibilité. La couche en langage naturel du banc d'essai montre qu'une instruction simple peut être traduite en un plan exécutable sans sacrifier la rigueur du contrôle sous-jacent — une capacité qui s'étend partout où une machine complexe pourrait être ouverte à davantage de membres de l'équipe.</p>
+      <div class="media-frame"><img src="../assets/measure_h13.gif" alt="Commande en langage naturel « mesurer le diamètre du trou H013 » planifiée et exécutée sur le banc d'essai ROS 2 / PDDL" loading="lazy"></div>
+    </div>
+  </div>
+</section>
+
+<section class="block">
+  <div class="wrap grid-label">
+    <span class="eyebrow">02 — Moteur d'arbitrage</span>
+    <div>
+      <h2>Comparer manuel, hybride et automatisé — sur plusieurs critères à la fois.</h2>
+      <p class="kicker-text">Le même cœur de planification alimente aussi le travail de comparaison de décisions de M4DM : modéliser différentes répartitions des tâches entre opérateur et machine, et comparer les plans obtenus sur le temps de cycle, le coût, l'ergonomie et la flexibilité — côte à côte, pas une estimation à la fois.</p>
+      <p class="kicker-text">Appliqué à un cas d'assemblage de fuselage aéronautique : comparaison d'un procédé manuel avec un procédé semi-automatisé pour la fixation d'éclisses sur un cadre structurel, avec une comparaison de type Gantt du makespan et de l'occupation par ressource.</p>
+      <div class="media-frame"><img src="../assets/gantt-comparator.gif" alt="Comparaison Gantt M4DM du cas de fixation d'éclisses : assistance par portique vs. assemblage manuel, quatre opérateurs chacun" loading="lazy"></div>
+    </div>
+  </div>
+</section>
+
+<section class="block">
+  <div class="wrap grid-label">
+    <span class="eyebrow">03 — Vision industrielle</span>
+    <div>
+      <h2>Relocalisation sous le millimètre, validée en simulation avant le matériel.</h2>
+      <p class="kicker-text">Un concept de relocalisation d'éclisse basé sur une caméra Zivid 2, validé par simulation Gazebo avant tout essai physique. Objectifs : position latérale &lt; 0,5&nbsp;mm, inclinaison &lt; 1°, distance à la surface &lt; 0,1&nbsp;mm, avec Cp&nbsp;&gt; 1,66 et Cpk&nbsp;&gt; 1,33.</p>
+      <p class="kicker-text">La modélisation valide le concept avant d'investir dans une preuve de concept représentative pour la qualification — la même rigueur que la méthode applique partout ailleurs.</p>
+      <div class="media-frame"><img src="../assets/zivid.gif" alt="Relocalisation sous le millimètre par caméra Zivid 2, validée en simulation Gazebo" loading="lazy"></div>
+    </div>
+  </div>
+</section>
+
+<section class="block">
+  <div class="wrap">
+    <span class="eyebrow">Contact</span>
+    <h2 style="max-width: 22ch;">Voyez comment cela s'applique à votre process.</h2>
+    <div class="cta-row" style="margin-top: 20px;">
+      <a href="contact.html" class="btn primary">Contact</a>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <div class="fine">© Au Camélia</div>
+    <div class="links">
+      <a href="services.html">Services</a>
+      <a href="book.html">Livre</a>
+      <a href="https://www.linkedin.com/in/christophe-poulain-34b952157/">LinkedIn</a>
+    </div>
+  </div>
+</footer>
+
+<script src="../assets/main.js"></script>
+</body>
+</html>
