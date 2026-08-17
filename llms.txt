@@ -8,7 +8,7 @@ Au Camélia's method (M4DM): objectives → as-is diagnosis → to-be modelled t
 
 - [Home](https://clgp44.github.io/auCamelia/): overview of the method and its Discovery → As-is → To-be process.
 - [Services](https://clgp44.github.io/auCamelia/services.html): four engagement types — change management (LBIP method), institutional funding dossiers, call-for-tender responses, and TRL-based feasibility demonstrations.
-- [The Book](https://clgp44.github.io/auCamelia/book.html): the method applied to real test-bench use cases — natural-language robot control (ROS 2 / PDDL), a Gantt-based manual-vs-automated trade-off comparator, and Zivid-camera machine vision for sub-millimetre relocation.
+- [Modelling](https://clgp44.github.io/auCamelia/book.html): the M4DM method applied to three technical problems — an AI-driven robotic control architecture (ROS 2 / PDDL natural-language robot control), a manual-vs-automated trade-off (Gantt-based comparator), and a machine-vision proof of concept (Zivid-camera sub-millimetre relocation).
 - [Contact](https://clgp44.github.io/auCamelia/contact.html): clgpoulain@gmail.com, or via LinkedIn.
 
 A full French translation of every page is available under [/fr/](https://clgp44.github.io/auCamelia/fr/) (e.g. /fr/services.html, /fr/book.html, /fr/contact.html) — same content, same structure.
